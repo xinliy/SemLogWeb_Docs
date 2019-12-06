@@ -13,11 +13,10 @@
 import os
 import sys
 import sphinx_glpi_theme
-doc_dir = os.path.dirname(os.path.abspath(__file__))
-project_dir = os.path.dirname(doc_dir)
-sys.path.insert(0, doc_dir)
 
-
+# sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0,"D:\\SemLog_web\\web\\semlog_mongo\\semlog_mongo")
+sys.path.insert(0,"D:\\SemLog_web\\web\\semlog_vis\\semlog_vis")
 # -- Project information -----------------------------------------------------
 
 project = 'SemlogWeb'
@@ -33,9 +32,7 @@ release = '2.0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
-
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

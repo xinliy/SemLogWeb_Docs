@@ -14,6 +14,7 @@ It is designed to be distributed and efficient with the following advantages:
 - Clear UI for image/point cloud dynamic visualization.
 - Support of parallel and GPU learning.
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
@@ -22,6 +23,9 @@ It is designed to be distributed and efficient with the following advantages:
    Quick Start <Quick-Start>
    Features <Features>
    Demo <Demo>
+   semlog_mongo API <semlog_mongo-API>
+   semlog_vis API <semlog_vis-API>
+   django API <django-API>
    FAQ <FAQ>
    Development Guide <Development-Guide>
 
